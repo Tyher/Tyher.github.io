@@ -1,50 +1,124 @@
 ---
+layout: resume_home
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
-excerpt: "About me"
-author_profile: true
-redirect_from: 
+title: "Yuhong Tan"
+excerpt: "Master's student in Automation at Shanghai Jiao Tong University, focusing on autonomous driving, multi-agent scheduling, and robotic fleet systems."
+author_profile: false
+redirect_from:
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+<section class="resume-hero" aria-labelledby="home-title">
+  <img class="resume-hero__avatar" src="/images/profile.png" alt="Yuhong Tan">
+  <div>
+    <h1 id="home-title" class="resume-hero__name">Yuhong Tan</h1>
+    <p class="resume-hero__role">
+      
+    I am a second-year Master student at The Shanghai Jiao Tong University of Automation, supervised by xinyi Le. Before that, I obtained my Bachelor’s (2020) degrees at Shanghai Jiao Tong University.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+    Currently I am working on on Autonomous Driving, Vision-Language-Action (VLA) foundation models and Multi-agent Path Planning (MAPF). I am actively involved in the Clearblue research project where I work around a LLVM-based binary lifter.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+    In my spare time, I enjoy playing basketball, video gaming, hiking, and cooking.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+    </p>
+    <div class="resume-hero__links" aria-label="Profile links">
+      <a href="mailto:2226474341@qq.com">Email</a>
+      <a href="https://github.com/Tyher">GitHub</a>
+      <a href="#publications">Publications</a>
+    </div>
+  </div>
+</section>
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+<section id="work-experience" class="resume-section" aria-labelledby="work-title">
+  <h2 id="work-title" class="resume-section__heading"><span>02</span>Work Experience</h2>
+  <div class="resume-timeline">
+    <article class="resume-item">
+      <div class="resume-item__top">
+        <h3>XPeng | VLA Large Model Group</h3>
+        <span class="resume-item__date">May 2026 - Present</span>
+      </div>
+      <p class="resume-item__meta">Algorithm Intern</p>
+      <ul>
+        <li>Contributing to algorithm development in the VLA large model group.</li>
+      </ul>
+    </article>
 
-**Markdown generator**
+    <article class="resume-item">
+      <div class="resume-item__top">
+        <h3>SenseTime | End-to-End Autonomous Driving R&amp;D</h3>
+        <span class="resume-item__date">Jan 2026 - Apr 2026</span>
+      </div>
+      <p class="resume-item__meta">Algorithm Intern</p>
+      <ul>
+        <li>Worked on a Diffusion Flow Planner pre-trained model with GRPO reinforcement-learning fine-tuning, taking primary responsibility for the fine-tuning workflow and algorithm optimization.</li>
+        <li>Improved static-obstacle bypass behavior through occupancy data augmentation, virtual VRU trajectory enrichment, and a progress reward for braking issues.</li>
+        <li>Enhanced lane-guidance following by designing a trajectory-sampling energy function, adding staircase noise perturbations for diversity, and building a follow reward for special scenarios.</li>
+      </ul>
+    </article>
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+    <article class="resume-item">
+      <div class="resume-item__top">
+        <h3>HELI | Multi-Vehicle Fleet Scheduling Kernel</h3>
+        <span class="resume-item__date">Jan 2025 - Oct 2025</span>
+      </div>
+      <p class="resume-item__meta">Independent Developer</p>
+      <ul>
+        <li>Built a hierarchical planning framework with global guidance and local solving for heterogeneous robot fleets with different body structures and kinematic constraints.</li>
+        <li>Converted solved paths into action sequences and modeled action conflicts and dependencies, enabling multi-robot coordination under weak communication without clock synchronization.</li>
+      </ul>
+    </article>
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+    <article class="resume-item">
+      <div class="resume-item__top">
+        <h3>Wayzim | Large-Scale Four-Way Shuttle Scheduling System</h3>
+        <span class="resume-item__date">Jun 2024 - Jan 2025</span>
+      </div>
+      <p class="resume-item__meta">Independent Developer</p>
+      <ul>
+        <li>Developed a fleet scheduling system for four-way shuttle vehicles at large scale, supporting scenarios with 100,000+ map nodes and 300+ robots.</li>
+        <li>Resolved path conflicts from the perspective of time-varying road networks, designed behavior-conflict detection and correction strategies, and delivered hierarchical path planning deployed on an actual production line.</li>
+      </ul>
+    </article>
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+    <article class="resume-item">
+      <div class="resume-item__top">
+        <h3>Huawei Cloud | Edge Cloud Computing Innovation Lab</h3>
+        <span class="resume-item__date">Jan 2024 - Jun 2024</span>
+      </div>
+      <p class="resume-item__meta">Algorithm Intern</p>
+      <ul>
+        <li>Designed a dynamic lifelong bipartite graph matching framework for multi-robot scheduling, using hybrid task allocation for command handoff and pre-scheduling. The approach reduced empty-run rate by 10.3% and was deployed on a real production line.</li>
+        <li>Used graph neural networks and multidimensional graph convolution to extract task-flow features for real-time task prediction, reducing average task completion time by 34.6%.</li>
+      </ul>
+    </article>
+  </div>
+</section>
 
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+<section id="publications" class="resume-section" aria-labelledby="publications-title">
+  <h2 id="publications-title" class="resume-section__heading"><span>03</span>Publications</h2>
+  <article class="resume-publication">
+    <h3>Cooperative Path Planning for Four-Way Shuttle Vehicles in Storage and Retrieval Systems: A Hierarchically Dynamic Graph Based Approach</h3>
+    <p>IROS 2024 | Co-first Author</p>
+  </article>
+  <article class="resume-publication">
+    <h3>EqMotion: Equivariant Multi-agent Motion Prediction with Invariant Interaction Reasoning</h3>
+    <p>CVPR 2023 | Second Author</p>
+  </article>
+  <article class="resume-publication">
+    <h3>Auxiliary Tasks Benefits 3D Skeleton-based Human Motion Prediction</h3>
+    <p>ICCV 2023 | Second Author</p>
+  </article>
+</section>
+
+<section id="awards" class="resume-section" aria-labelledby="awards-title">
+  <h2 id="awards-title" class="resume-section__heading"><span>04</span>Awards</h2>
+  <ul class="resume-list">
+    <li>National Scholarship, Shanghai Jiao Tong University.</li>
+    <li>Outstanding Graduate, Shanghai Jiao Tong University.</li>
+    <li>RoboCup China Open, Small Size League: National Runner-up; Captain of the Shanghai Jiao Tong University team.</li>
+    <li>Meituan Low-Altitude Economy Intelligent Flight Management Challenge: Potential Star Award, National Top 10.</li>
+    <li>NOI series competitions: NOIp First Prize and HNOI First Prize.</li>
+  </ul>
+</section>
