@@ -88,6 +88,37 @@
   text-decoration: none;
 }
 
+.resume-sidebar__nav {
+  display: grid;
+  gap: 0.15rem;
+  margin-top: 1.6rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.resume-sidebar__nav a {
+  display: flex;
+  gap: 0.55rem;
+  align-items: baseline;
+  padding: 0.35rem 0;
+  color: #3f454b;
+  font-size: 0.92rem;
+  line-height: 1.35;
+  text-decoration: none;
+}
+
+.resume-sidebar__nav a:hover {
+  color: #0f6f7a;
+  text-decoration: none;
+}
+
+.resume-sidebar__nav span {
+  flex: 0 0 auto;
+  color: #b15d42;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
 .resume-details {
   min-width: 0;
 }
@@ -242,6 +273,10 @@
 
   .resume-sidebar__avatar {
     max-width: 170px;
+  }
+
+  .resume-sidebar__nav {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .resume-item__top {

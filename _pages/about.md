@@ -2,7 +2,7 @@
 layout: resume_home
 permalink: /
 title: "Yuhong Tan"
-excerpt: "Master's student in Automation at Shanghai Jiao Tong University, focusing on autonomous driving, multi-agent scheduling, and robotic fleet systems."
+excerpt: "Master's candidate in Automation at Shanghai Jiao Tong University, focused on autonomous driving, VLA models, and robotic fleet systems."
 author_profile: false
 redirect_from:
   - /about/
@@ -13,12 +13,20 @@ redirect_from:
   <aside class="resume-sidebar" aria-labelledby="home-title">
     <img class="resume-sidebar__avatar" src="/images/profile.png" alt="Yuhong Tan">
     <h1 id="home-title" class="resume-sidebar__name">Yuhong Tan</h1>
-    <p class="resume-sidebar__role">Master's student in Automation at Shanghai Jiao Tong University.</p>
+    <p class="resume-sidebar__role">Master's candidate, SJTU</p>
 
     <div class="resume-sidebar__links" aria-label="Profile links">
       <a href="mailto:2226474341@qq.com">Email</a>
       <a href="https://github.com/Tyher">GitHub</a>
     </div>
+
+    <nav class="resume-sidebar__nav" aria-label="Resume sections">
+      <a href="#biography"><span>01</span>Biography</a>
+      <a href="#work-experience"><span>02</span>Work Experience</a>
+      <a href="#projects"><span>03</span>Projects</a>
+      <a href="#publications"><span>04</span>Publications</a>
+      <a href="#awards"><span>05</span>Awards</a>
+    </nav>
   </aside>
 
   <div class="resume-details">
@@ -28,8 +36,8 @@ redirect_from:
         <div class="resume-item__top">
           <h3>About Me</h3>
         </div>
-        <p>Hi! I am a second-year Master's student at Shanghai Jiao Tong University, supervised by Xinyi Le. Before that, I obtained my Bachelor's degree at Shanghai Jiao Tong University in 2020.</p>
-        <p>Currently I am working on Autonomous Driving, Vision-Language-Action (VLA) foundation models, and Multi-agent Path Planning (MAPF).</p>
+        <p>Hi! I am a second-year master's student in Automation at Shanghai Jiao Tong University. I am advised by Xinyi Le.</p>
+        <p>I earned my bachelor's degree from Shanghai Jiao Tong University in 2020. My research focuses on autonomous driving 🚗, Vision-Language-Action (VLA) foundation models 🤖, and Multi-Agent Path Finding (MAPF) 🗺️.</p>
       </article>
     </section>
 
@@ -42,7 +50,7 @@ redirect_from:
             <span class="resume-item__date">May 2026 - Present</span>
           </div>
           <ul>
-            <li>Contributing to algorithm development in the VLA team.</li>
+            <li>Develop algorithms for the VLA team 🤖.</li>
           </ul>
         </article>
 
@@ -52,7 +60,8 @@ redirect_from:
             <span class="resume-item__date">Jan 2026 - Apr 2026</span>
           </div>
           <ul>
-            <li>Worked on a Diffusion Flow Planner pre-trained model with reinforcement-learning fine-tuning, taking primary responsibility for the fine-tuning workflow and algorithm optimization.</li>
+            <li>Worked on a Diffusion Flow Planner pre-trained model. Applied reinforcement-learning fine-tuning to improve planning quality 🧠.</li>
+            <li>Led the fine-tuning workflow and optimized the algorithm pipeline.</li>
           </ul>
         </article>
 
@@ -62,8 +71,9 @@ redirect_from:
             <span class="resume-item__date">Jan 2024 - Jun 2024</span>
           </div>
           <ul>
-            <li>Designed a dynamic lifelong bipartite graph matching framework for multi-robot scheduling, using hybrid task allocation for command handoff and pre-scheduling. The approach reduced empty-run rate by 10.3% and was deployed on a real production line.</li>
-            <li>Used graph neural networks and multidimensional graph convolution to extract task-flow features for real-time task prediction, reducing average task completion time by 34.6%.</li>
+            <li>Designed a dynamic lifelong bipartite graph matching framework for multi-robot scheduling 🤖.</li>
+            <li>Used hybrid task allocation for command handoff and pre-scheduling. The method reduced the empty-run rate by 10.3% and was deployed on a production line.</li>
+            <li>Used graph neural networks and multidimensional graph convolution to extract task-flow features. The model supported real-time task prediction and reduced average task completion time by 34.6%.</li>
           </ul>
         </article>
       </div>
@@ -79,8 +89,9 @@ redirect_from:
           </div>
           <p class="resume-item__meta">Master</p>
           <ul>
-            <li>Built a hierarchical planning framework with global guidance and local solving for heterogeneous robot fleets with different body structures and kinematic constraints.</li>
-            <li>Converted solved paths into action sequences and modeled action conflicts and dependencies, enabling multi-robot coordination under weak communication without clock synchronization.</li>
+            <li>Built a hierarchical planning framework for heterogeneous robot fleets 🤖.</li>
+            <li>Combined global guidance with local solving. The framework supports robots with different body structures and kinematic constraints.</li>
+            <li>Converted solved paths into action sequences. Modeled action conflicts and dependencies to support coordination under weak communication and no clock synchronization.</li>
           </ul>
         </article>
 
@@ -91,8 +102,10 @@ redirect_from:
           </div>
           <p class="resume-item__meta">Master</p>
           <ul>
-            <li>Developed a fleet scheduling system for four-way shuttle vehicles at large scale, supporting scenarios with 100,000+ map nodes and 300+ robots.</li>
-            <li>Resolved path conflicts from the perspective of time-varying road networks, designed behavior-conflict detection and correction strategies, and delivered hierarchical path planning deployed on an actual production line.</li>
+            <li>Developed a large-scale fleet scheduling system for four-way shuttle vehicles 🚚.</li>
+            <li>Supported scenarios with more than 100,000 map nodes and over 300 robots.</li>
+            <li>Resolved path conflicts using time-varying road networks. Designed behavior-conflict detection and correction strategies for hierarchical path planning.</li>
+            <li>Delivered the system to a production line.</li>
           </ul>
         </article>
       </div>
@@ -117,10 +130,10 @@ redirect_from:
     <section id="awards" class="resume-section" aria-labelledby="awards-title">
       <h2 id="awards-title" class="resume-section__heading"><span>05</span>Awards</h2>
       <ul class="resume-list">
-        <li>National Scholarship (1%), Shanghai Jiao Tong University.</li>
+        <li>National Scholarship (top 1%), Shanghai Jiao Tong University 🏅.</li>
         <li>Outstanding Graduate, Shanghai Jiao Tong University.</li>
-        <li>RoboCup China Open, Small Size League: National Runner-up; Captain of the Shanghai Jiao Tong University team.</li>
-        <li>Meituan Low-Altitude Economy Intelligent Flight Management Challenge: Potential Star Award, National Top 10.</li>
+        <li>RoboCup China Open, Small Size League: National Runner-up. Captain of the Shanghai Jiao Tong University team 🏆.</li>
+        <li>Meituan Low-Altitude Economy Intelligent Flight Management Challenge: Potential Star Award. National Top 10 ✈️.</li>
         <li>NOI series competitions: NOIp First Prize and HNOI First Prize.</li>
       </ul>
     </section>
