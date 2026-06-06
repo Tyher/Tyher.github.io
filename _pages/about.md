@@ -37,7 +37,7 @@ redirect_from:
           <h3>About Me</h3>
         </div>
         <p>Hi! I am a second-year master's student in Automation at Shanghai Jiao Tong University. I am advised by Xinyi Le.</p>
-        <p>I earned my bachelor's degree from Shanghai Jiao Tong University in 2020. My research focuses on autonomous driving 🚗, Vision-Language-Action (VLA) foundation models 🤖, and Multi-Agent Path Finding (MAPF) 🗺️.</p>
+        <p>I earned my bachelor's degree from Shanghai Jiao Tong University in 2020. My interets focuses on autonomous driving 🚗, Vision-Language-Action (VLA) foundation models 🤖, and Multi-Agent Path Finding (MAPF) 🗺️.</p>
       </article>
     </section>
 
@@ -60,8 +60,8 @@ redirect_from:
             <span class="resume-item__date">Jan 2026 - Apr 2026</span>
           </div>
           <ul>
-            <li>Worked on a Diffusion Flow Planner pre-trained model. Applied reinforcement-learning fine-tuning to improve planning quality 🧠.</li>
-            <li>Led the fine-tuning workflow and optimized the algorithm pipeline.</li>
+            <li>Worked on a Diffusion Planner pre-trained model. Applied reinforcement-learning fine-tuning to improve planning quality 🧠.</li>
+            <li>Focuse on the fine-tuning workflow and optimized the algorithm pipeline.</li>
           </ul>
         </article>
 
@@ -102,8 +102,7 @@ redirect_from:
           </div>
           <p class="resume-item__meta">Master</p>
           <ul>
-            <li>Developed a large-scale fleet scheduling system for four-way shuttle vehicles 🚚.</li>
-            <li>Supported scenarios with more than 100,000 map nodes and over 300 robots.</li>
+            <li>Developed a large-scale fleet scheduling system for four-way shuttle vehicles 🚚. Supported scenarios with more than 100,000 map nodes and over 300 robots.</li>
             <li>Resolved path conflicts using time-varying road networks. Designed behavior-conflict detection and correction strategies for hierarchical path planning.</li>
             <li>Delivered the system to a production line.</li>
           </ul>
@@ -113,6 +112,7 @@ redirect_from:
 
     <section id="publications" class="resume-section" aria-labelledby="publications-title">
       <h2 id="publications-title" class="resume-section__heading"><span>04</span>Publications</h2>
+      
       <article class="resume-publication">
         <h3>Cooperative Path Planning for Four-Way Shuttle Vehicles in Storage and Retrieval Systems: A Hierarchically Dynamic Graph Based Approach</h3>
         <p>IROS 2024</p>
@@ -124,6 +124,14 @@ redirect_from:
       <article class="resume-publication">
         <h3>Auxiliary Tasks Benefits 3D Skeleton-based Human Motion Prediction</h3>
         <p>ICCV 2023</p>
+      </article>
+      <article class="resume-publication">
+        <h3>A Spatiotemporal Framework for Cooperative Path Planning of Multi-UGV-UAV Delivery Systems</h3>
+        <p>RCAR 2025</p>
+      </article>
+      <article class="resume-publication">
+        <h3>Effective and Scalable Path Planning and Motion Coordination for Four-Way Shuttle Vehicles in Storage/Retrieval Systems</h3>
+        <p>TASE 2026</p>
       </article>
     </section>
 
