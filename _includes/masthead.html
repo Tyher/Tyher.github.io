@@ -2,7 +2,7 @@
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
+    <div class="masthead__menu{% if page.resume_i18n %} masthead__menu--resume{% endif %}">
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
@@ -13,11 +13,31 @@
               {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% assign i18n_key = '' %}
+            {% if link.url == '/#biography' %}
+              {% assign i18n_key = 'nav.biography' %}
+            {% elsif link.url == '/#work-experience' %}
+              {% assign i18n_key = 'nav.work' %}
+            {% elsif link.url == '/#projects' %}
+              {% assign i18n_key = 'nav.projects' %}
+            {% elsif link.url == '/#publications' %}
+              {% assign i18n_key = 'nav.publications' %}
+            {% elsif link.url == '/#awards' %}
+              {% assign i18n_key = 'nav.awards' %}
+            {% endif %}
+            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}"{% if page.resume_i18n and i18n_key != '' %} data-i18n="{{ i18n_key }}"{% endif %}>{{ link.title }}</a></li>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
+      {% if page.resume_i18n %}
+        <div class="resume-language-nav">
+          <div class="resume-language" role="group" aria-label="Language">
+            <button class="resume-language__button is-active" type="button" data-resume-lang-button="en" aria-pressed="true">EN</button>
+            <button class="resume-language__button" type="button" data-resume-lang-button="zh" aria-pressed="false">中文</button>
+          </div>
+        </div>
+      {% endif %}
     </div>
   </div>
 </div>
