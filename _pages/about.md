@@ -60,8 +60,7 @@ redirect_from:
             <span class="resume-item__date">Jan 2026 - Apr 2026</span>
           </div>
           <ul>
-            <li>Worked on a Diffusion Planner pre-trained model. Applied reinforcement-learning fine-tuning to improve planning quality 🧠.</li>
-            <li>Focused on the fine-tuning workflow and optimized the algorithm pipeline.</li>
+            <li>Worked on a Diffusion Planner pre-trained model. Applied reinforcement-learning (RL) fine-tuning to improve planning quality 🧠. Focused on the fine-tuning workflow and optimized the algorithm pipeline.</li>
           </ul>
         </article>
 
@@ -72,8 +71,8 @@ redirect_from:
           </div>
           <ul>
             <li>Designed a dynamic lifelong bipartite graph matching framework for multi-robot scheduling 🤖.</li>
-            <li>Used hybrid task allocation for command handoff and pre-scheduling. The method reduced the empty-run rate by 10.3% and was deployed on a production line.</li>
-            <li>Used graph neural networks and multidimensional graph convolution to extract task-flow features. The model supported real-time task prediction and reduced average task completion time by 34.6%.</li>
+            <li>Used hybrid task allocation for command handoff and pre-scheduling. </li>
+            <li>Used graph neural networks and multidimensional graph convolution to extract task-flow features. </li>
           </ul>
         </article>
       </div>
@@ -91,7 +90,6 @@ redirect_from:
           <ul>
             <li>Built a hierarchical planning framework for heterogeneous robot fleets 🤖.</li>
             <li>Combined global guidance with local solving. The framework supports robots with different body structures and kinematic constraints.</li>
-            <li>Converted solved paths into action sequences. Modeled action conflicts and dependencies to support coordination under weak communication and no clock synchronization.</li>
           </ul>
         </article>
 
@@ -103,8 +101,7 @@ redirect_from:
           <p class="resume-item__meta">Leader</p>
           <ul>
             <li>Developed a large-scale fleet scheduling system for four-way shuttle vehicles 🚚. Supported scenarios with more than 100,000 map nodes and over 300 robots.</li>
-            <li>Resolved path conflicts using time-varying road networks. Designed behavior-conflict detection and correction strategies for hierarchical path planning.</li>
-            <li>Delivered the system to a production line.</li>
+            <li>Resolved path conflicts using time-varying road networks. Designed correction strategies for hierarchical path planning.</li>
           </ul>
         </article>
       </div>
