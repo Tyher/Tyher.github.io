@@ -12,7 +12,10 @@ redirect_from:
 <div class="resume-layout">
   <aside class="resume-sidebar" aria-labelledby="home-title">
     <img class="resume-sidebar__avatar" src="/images/profile.png" alt="Yuhong Tan">
-    <h1 id="home-title" class="resume-sidebar__name">Yuhong Tan</h1>
+    <h1 id="home-title" class="resume-sidebar__name">
+      <span class="resume-sidebar__name-en">Yuhong Tan</span>
+      <span class="resume-sidebar__name-cn" lang="zh-Hans">谭宇宏</span>
+    </h1>
     <p class="resume-sidebar__role">Master's candidate, SJTU</p>
 
     <div class="resume-sidebar__links" aria-label="Profile links">
@@ -36,8 +39,9 @@ redirect_from:
         <div class="resume-item__top">
           <h3>About Me</h3>
         </div>
-        <p>Hi! I am a second-year master's student in Automation at Shanghai Jiao Tong University. I am advised by Xinyi Le.</p>
+        <p>Hi! I am Yuhong Tan, a second-year master's student in Automation at Shanghai Jiao Tong University. I am advised by Xinyi Le.</p>
         <p>I earned my bachelor's degree from Shanghai Jiao Tong University in 2020. My research interests focus on autonomous driving 🚗, Vision-Language-Action (VLA) foundation models 🤖, and Multi-Agent Path Finding (MAPF) 🗺️.</p>
+        <p>I am currently seeking full-time opportunities in related research and engineering roles 🤩.</p>
       </article>
     </section>
 

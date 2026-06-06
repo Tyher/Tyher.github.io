@@ -52,8 +52,21 @@
 .resume-sidebar__name {
   margin: 1.25rem 0 0;
   color: #161719;
-  font-size: 2rem;
+  font-size: 1.9rem;
   line-height: 1.1;
+}
+
+.resume-sidebar__name-en,
+.resume-sidebar__name-cn {
+  display: block;
+}
+
+.resume-sidebar__name-cn {
+  margin-top: 0.35rem;
+  color: #697178;
+  font-size: 1.05rem;
+  font-weight: 600;
+  white-space: nowrap;
 }
 
 .resume-sidebar__role {
