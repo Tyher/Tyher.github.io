@@ -15,15 +15,14 @@ redirect_from:
     <h1 id="home-title" class="resume-hero__name">Yuhong Tan</h1>
     <p class="resume-hero__role">
       
-    Hi! I am a second-year Master student at The Shanghai Jiao Tong University of Automation, supervised by xinyi Le. Before that, I obtained my Bachelor’s (2020) degrees at Shanghai Jiao Tong University.
+    <li> Hi! I am a second-year Master student at The Shanghai Jiao Tong University of Automation, supervised by xinyi Le. Before that, I obtained my Bachelor’s (2020) degrees at Shanghai Jiao Tong University.<li>
 
-    Currently I am working on on Autonomous Driving, Vision-Language-Action (VLA) foundation models and Multi-agent Path Planning (MAPF). 
+    <li> Currently I am working on on Autonomous Driving, Vision-Language-Action (VLA) foundation models and Multi-agent Path Planning (MAPF). <li>
 
     </p>
     <div class="resume-hero__links" aria-label="Profile links">
       <a href="mailto:2226474341@qq.com">Email</a>
       <a href="https://github.com/Tyher">GitHub</a>
-      <a href="#publications">Publications</a>
     </div>
   </div>
 </section>
@@ -38,7 +37,7 @@ redirect_from:
         <span class="resume-item__date">May 2026 - Present</span>
       </div>
       <ul>
-        <li>Contributing to algorithm development in the VLA large model group.</li>
+        <li>Contributing to algorithm development in the VLA team.</li>
       </ul>
     </article>
 
@@ -48,9 +47,7 @@ redirect_from:
         <span class="resume-item__date">Jan 2026 - Apr 2026</span>
       </div>
       <ul>
-        <li>Worked on a Diffusion Flow Planner pre-trained model with GRPO reinforcement-learning fine-tuning, taking primary responsibility for the fine-tuning workflow and algorithm optimization.</li>
-        <li>Improved static-obstacle bypass behavior through occupancy data augmentation, virtual VRU trajectory enrichment, and a progress reward for braking issues.</li>
-        <li>Enhanced lane-guidance following by designing a trajectory-sampling energy function, adding staircase noise perturbations for diversity, and building a follow reward for special scenarios.</li>
+        <li>Worked on a Diffusion Flow Planner pre-trained model with reinforcement-learning fine-tuning, taking primary responsibility for the fine-tuning workflow and algorithm optimization.</li>
       </ul>
     </article>
 
