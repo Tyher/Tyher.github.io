@@ -63,18 +63,6 @@
   line-height: 1.55;
 }
 
-.resume-sidebar__intro {
-  margin: 1.15rem 0 0;
-  padding-left: 1.1rem;
-}
-
-.resume-sidebar__intro li {
-  margin: 0.55rem 0;
-  color: #3f454b;
-  font-size: 0.95rem;
-  line-height: 1.65;
-}
-
 .resume-sidebar__links {
   display: flex;
   flex-wrap: wrap;
@@ -197,6 +185,10 @@
   margin: 0 0 0.65rem;
   color: #697178;
   font-size: 0.92rem;
+}
+
+.resume-biography p {
+  margin: 0.6rem 0 0;
 }
 
 .resume-item ul,

@@ -15,11 +15,6 @@ redirect_from:
     <h1 id="home-title" class="resume-sidebar__name">Yuhong Tan</h1>
     <p class="resume-sidebar__role">Master's student in Automation at Shanghai Jiao Tong University.</p>
 
-    <ul class="resume-sidebar__intro">
-      <li>Hi! I am a second-year Master's student at Shanghai Jiao Tong University, supervised by Xinyi Le. Before that, I obtained my Bachelor's degree at Shanghai Jiao Tong University in 2020.</li>
-      <li>Currently I am working on Autonomous Driving, Vision-Language-Action (VLA) foundation models, and Multi-agent Path Planning (MAPF).</li>
-    </ul>
-
     <div class="resume-sidebar__links" aria-label="Profile links">
       <a href="mailto:2226474341@qq.com">Email</a>
       <a href="https://github.com/Tyher">GitHub</a>
@@ -27,8 +22,19 @@ redirect_from:
   </aside>
 
   <div class="resume-details">
+    <section id="biography" class="resume-section" aria-labelledby="biography-title">
+      <h2 id="biography-title" class="resume-section__heading"><span>01</span>Biography</h2>
+      <article class="resume-item resume-biography">
+        <div class="resume-item__top">
+          <h3>About Me</h3>
+        </div>
+        <p>Hi! I am a second-year Master's student at Shanghai Jiao Tong University, supervised by Xinyi Le. Before that, I obtained my Bachelor's degree at Shanghai Jiao Tong University in 2020.</p>
+        <p>Currently I am working on Autonomous Driving, Vision-Language-Action (VLA) foundation models, and Multi-agent Path Planning (MAPF).</p>
+      </article>
+    </section>
+
     <section id="work-experience" class="resume-section" aria-labelledby="work-title">
-      <h2 id="work-title" class="resume-section__heading"><span>01</span>Work Experience</h2>
+      <h2 id="work-title" class="resume-section__heading"><span>02</span>Work Experience</h2>
       <div class="resume-timeline">
         <article class="resume-item">
           <div class="resume-item__top">
@@ -64,7 +70,7 @@ redirect_from:
     </section>
 
     <section id="projects" class="resume-section" aria-labelledby="projects-title">
-      <h2 id="projects-title" class="resume-section__heading"><span>02</span>Projects</h2>
+      <h2 id="projects-title" class="resume-section__heading"><span>03</span>Projects</h2>
       <div class="resume-timeline">
         <article class="resume-item">
           <div class="resume-item__top">
@@ -93,7 +99,7 @@ redirect_from:
     </section>
 
     <section id="publications" class="resume-section" aria-labelledby="publications-title">
-      <h2 id="publications-title" class="resume-section__heading"><span>03</span>Publications</h2>
+      <h2 id="publications-title" class="resume-section__heading"><span>04</span>Publications</h2>
       <article class="resume-publication">
         <h3>Cooperative Path Planning for Four-Way Shuttle Vehicles in Storage and Retrieval Systems: A Hierarchically Dynamic Graph Based Approach</h3>
         <p>IROS 2024</p>
@@ -109,7 +115,7 @@ redirect_from:
     </section>
 
     <section id="awards" class="resume-section" aria-labelledby="awards-title">
-      <h2 id="awards-title" class="resume-section__heading"><span>04</span>Awards</h2>
+      <h2 id="awards-title" class="resume-section__heading"><span>05</span>Awards</h2>
       <ul class="resume-list">
         <li>National Scholarship (1%), Shanghai Jiao Tong University.</li>
         <li>Outstanding Graduate, Shanghai Jiao Tong University.</li>
