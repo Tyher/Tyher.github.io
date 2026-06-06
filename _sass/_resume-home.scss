@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .resume-main {
-  max-width: 980px;
+  max-width: 1120px;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
 }
@@ -26,54 +26,63 @@
   }
 }
 
-.resume-hero {
+.resume-layout {
   display: grid;
-  grid-template-columns: minmax(120px, 170px) 1fr;
-  gap: 2rem;
-  align-items: center;
-  padding: 2.5rem 0 2rem;
-  border-bottom: 1px solid #e5e7eb;
+  grid-template-columns: minmax(220px, 1fr) minmax(0, 3fr);
+  gap: 3rem;
+  align-items: start;
+  padding: 2.5rem 0;
 }
 
-.resume-hero__avatar {
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
+.resume-sidebar {
+  position: sticky;
+  top: 5rem;
+  align-self: start;
+}
+
+.resume-sidebar__avatar {
+  width: min(100%, 210px);
+  aspect-ratio: 1;
+  border-radius: 8px;
   border: 1px solid #e5e7eb;
   background: #f6f7f8;
   object-fit: cover;
 }
 
-.resume-hero__eyebrow {
-  margin: 0 0 0.45rem;
-  color: #b15d42;
-  font-size: 0.85rem;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.resume-hero__name {
-  margin: 0;
+.resume-sidebar__name {
+  margin: 1.25rem 0 0;
   color: #161719;
-  font-size: 2.2rem;
+  font-size: 2rem;
   line-height: 1.1;
 }
 
-.resume-hero__role {
+.resume-sidebar__role {
   margin: 0.7rem 0 0;
   color: #3f454b;
-  font-size: 1.05rem;
+  font-size: 1rem;
   line-height: 1.55;
 }
 
-.resume-hero__links {
+.resume-sidebar__intro {
+  margin: 1.15rem 0 0;
+  padding-left: 1.1rem;
+}
+
+.resume-sidebar__intro li {
+  margin: 0.55rem 0;
+  color: #3f454b;
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+.resume-sidebar__links {
   display: flex;
   flex-wrap: wrap;
   gap: 0.6rem;
-  margin-top: 1.1rem;
+  margin-top: 1.25rem;
 }
 
-.resume-hero__links a {
+.resume-sidebar__links a {
   display: inline-flex;
   align-items: center;
   min-height: 2.1rem;
@@ -86,9 +95,17 @@
   text-decoration: none;
 }
 
-.resume-hero__links a:hover {
+.resume-sidebar__links a:hover {
   border-color: #0f6f7a;
   text-decoration: none;
+}
+
+.resume-details {
+  min-width: 0;
+}
+
+.resume-details .resume-section:first-child {
+  padding-top: 0;
 }
 
 .resume-section {
@@ -221,14 +238,18 @@
 }
 
 @media (max-width: 700px) {
-  .resume-hero {
+  .resume-layout {
     grid-template-columns: 1fr;
-    justify-items: center;
-    text-align: center;
+    gap: 1.5rem;
+    padding: 1.5rem 0;
   }
 
-  .resume-hero__links {
-    justify-content: center;
+  .resume-sidebar {
+    position: static;
+  }
+
+  .resume-sidebar__avatar {
+    max-width: 170px;
   }
 
   .resume-item__top {
