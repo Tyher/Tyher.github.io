@@ -15,11 +15,9 @@ redirect_from:
     <h1 id="home-title" class="resume-hero__name">Yuhong Tan</h1>
     <p class="resume-hero__role">
       
-    I am a second-year Master student at The Shanghai Jiao Tong University of Automation, supervised by xinyi Le. Before that, I obtained my Bachelor’s (2020) degrees at Shanghai Jiao Tong University.
+    Hi! I am a second-year Master student at The Shanghai Jiao Tong University of Automation, supervised by xinyi Le. Before that, I obtained my Bachelor’s (2020) degrees at Shanghai Jiao Tong University.
 
-    Currently I am working on on Autonomous Driving, Vision-Language-Action (VLA) foundation models and Multi-agent Path Planning (MAPF). I am actively involved in the Clearblue research project where I work around a LLVM-based binary lifter.
-
-    In my spare time, I enjoy playing basketball, video gaming, hiking, and cooking.
+    Currently I am working on on Autonomous Driving, Vision-Language-Action (VLA) foundation models and Multi-agent Path Planning (MAPF). 
 
     </p>
     <div class="resume-hero__links" aria-label="Profile links">
@@ -32,7 +30,7 @@ redirect_from:
 
 
 <section id="work-experience" class="resume-section" aria-labelledby="work-title">
-  <h2 id="work-title" class="resume-section__heading"><span>02</span>Work Experience</h2>
+  <h2 id="work-title" class="resume-section__heading"><span>01</span>Work Experience</h2>
   <div class="resume-timeline">
     <article class="resume-item">
       <div class="resume-item__top">
@@ -60,6 +58,24 @@ redirect_from:
 
     <article class="resume-item">
       <div class="resume-item__top">
+        <h3>Huawei Cloud | Edge Cloud Computing Innovation Lab</h3>
+        <span class="resume-item__date">Jan 2024 - Jun 2024</span>
+      </div>
+      <p class="resume-item__meta">Algorithm Intern</p>
+      <ul>
+        <li>Designed a dynamic lifelong bipartite graph matching framework for multi-robot scheduling, using hybrid task allocation for command handoff and pre-scheduling. The approach reduced empty-run rate by 10.3% and was deployed on a real production line.</li>
+        <li>Used graph neural networks and multidimensional graph convolution to extract task-flow features for real-time task prediction, reducing average task completion time by 34.6%.</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+
+<section id="work-experience" class="resume-section" aria-labelledby="work-title">
+  <h2 id="work-title" class="resume-section__heading"><span>01</span>Work Experience</h2>
+
+    <article class="resume-item">
+      <div class="resume-item__top">
         <h3>HELI | Multi-Vehicle Fleet Scheduling Kernel</h3>
         <span class="resume-item__date">Jan 2025 - Oct 2025</span>
       </div>
@@ -82,17 +98,6 @@ redirect_from:
       </ul>
     </article>
 
-    <article class="resume-item">
-      <div class="resume-item__top">
-        <h3>Huawei Cloud | Edge Cloud Computing Innovation Lab</h3>
-        <span class="resume-item__date">Jan 2024 - Jun 2024</span>
-      </div>
-      <p class="resume-item__meta">Algorithm Intern</p>
-      <ul>
-        <li>Designed a dynamic lifelong bipartite graph matching framework for multi-robot scheduling, using hybrid task allocation for command handoff and pre-scheduling. The approach reduced empty-run rate by 10.3% and was deployed on a real production line.</li>
-        <li>Used graph neural networks and multidimensional graph convolution to extract task-flow features for real-time task prediction, reducing average task completion time by 34.6%.</li>
-      </ul>
-    </article>
   </div>
 </section>
 
