@@ -260,6 +260,27 @@
   font-size: 0.92rem;
 }
 
+.resume-content .resume-publication__link {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0.45rem;
+  padding: 0.08rem 0.4rem;
+  border: 1px solid #d8dde3;
+  border-radius: 6px;
+  color: #0f6f7a;
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.35;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.resume-content .resume-publication__link:hover {
+  border-color: #0f6f7a;
+  color: #0a4f58;
+  text-decoration: none;
+}
+
 @media (max-width: 700px) {
   .resume-layout {
     grid-template-columns: 1fr;

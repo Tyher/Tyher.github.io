@@ -37,7 +37,7 @@ redirect_from:
           <h3>About Me</h3>
         </div>
         <p>Hi! I am a second-year master's student in Automation at Shanghai Jiao Tong University. I am advised by Xinyi Le.</p>
-        <p>I earned my bachelor's degree from Shanghai Jiao Tong University in 2020. My interets focuses on autonomous driving 🚗, Vision-Language-Action (VLA) foundation models 🤖, and Multi-Agent Path Finding (MAPF) 🗺️.</p>
+        <p>I earned my bachelor's degree from Shanghai Jiao Tong University in 2020. My research interests focus on autonomous driving 🚗, Vision-Language-Action (VLA) foundation models 🤖, and Multi-Agent Path Finding (MAPF) 🗺️.</p>
       </article>
     </section>
 
@@ -61,7 +61,7 @@ redirect_from:
           </div>
           <ul>
             <li>Worked on a Diffusion Planner pre-trained model. Applied reinforcement-learning fine-tuning to improve planning quality 🧠.</li>
-            <li>Focuse on the fine-tuning workflow and optimized the algorithm pipeline.</li>
+            <li>Focused on the fine-tuning workflow and optimized the algorithm pipeline.</li>
           </ul>
         </article>
 
@@ -87,7 +87,7 @@ redirect_from:
             <h3>HELI | Multi-Vehicle Fleet Scheduling Kernel</h3>
             <span class="resume-item__date">Jan 2025 - Oct 2025</span>
           </div>
-          <p class="resume-item__meta">Master</p>
+          <p class="resume-item__meta">Leader</p>
           <ul>
             <li>Built a hierarchical planning framework for heterogeneous robot fleets 🤖.</li>
             <li>Combined global guidance with local solving. The framework supports robots with different body structures and kinematic constraints.</li>
@@ -100,7 +100,7 @@ redirect_from:
             <h3>Wayzim | Large-Scale Four-Way Shuttle Scheduling System</h3>
             <span class="resume-item__date">Jun 2024 - Jan 2025</span>
           </div>
-          <p class="resume-item__meta">Master</p>
+          <p class="resume-item__meta">Leader</p>
           <ul>
             <li>Developed a large-scale fleet scheduling system for four-way shuttle vehicles 🚚. Supported scenarios with more than 100,000 map nodes and over 300 robots.</li>
             <li>Resolved path conflicts using time-varying road networks. Designed behavior-conflict detection and correction strategies for hierarchical path planning.</li>
@@ -115,23 +115,23 @@ redirect_from:
       
       <article class="resume-publication">
         <h3>Cooperative Path Planning for Four-Way Shuttle Vehicles in Storage and Retrieval Systems: A Hierarchically Dynamic Graph Based Approach</h3>
-        <p>IROS 2024</p>
+        <p>IROS 2024 <a class="resume-publication__link" href="https://ieeexplore.ieee.org/document/10801443" target="_blank" rel="noopener noreferrer">Paper</a></p>
       </article>
       <article class="resume-publication">
         <h3>EqMotion: Equivariant Multi-agent Motion Prediction with Invariant Interaction Reasoning</h3>
-        <p>CVPR 2023</p>
+        <p>CVPR 2023 <a class="resume-publication__link" href="https://ieeexplore.ieee.org/document/11271586" target="_blank" rel="noopener noreferrer">Paper</a></p>
       </article>
       <article class="resume-publication">
         <h3>Auxiliary Tasks Benefits 3D Skeleton-based Human Motion Prediction</h3>
-        <p>ICCV 2023</p>
+        <p>ICCV 2023 <a class="resume-publication__link" href="https://ieeexplore.ieee.org/document/10376868/" target="_blank" rel="noopener noreferrer">Paper</a></p>
       </article>
       <article class="resume-publication">
         <h3>A Spatiotemporal Framework for Cooperative Path Planning of Multi-UGV-UAV Delivery Systems</h3>
-        <p>RCAR 2025</p>
+        <p>RCAR 2025 <a class="resume-publication__link" href="https://ieeexplore.ieee.org/document/11139713" target="_blank" rel="noopener noreferrer">Paper</a></p>
       </article>
       <article class="resume-publication">
         <h3>Effective and Scalable Path Planning and Motion Coordination for Four-Way Shuttle Vehicles in Storage/Retrieval Systems</h3>
-        <p>TASE 2026</p>
+        <p>TASE 2026 <a class="resume-publication__link" href="https://ieeexplore.ieee.org/document/11271586" target="_blank" rel="noopener noreferrer">Paper</a></p>
       </article>
     </section>
 
